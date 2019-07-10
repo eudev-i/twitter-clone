@@ -1,0 +1,39 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+#app {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /*  aling-itens: alinha no eixo contrario que estiver o flex-direction
+      justify-content: alinha no mesmo eixo do flex-direction 
+      flex-start
+      center
+      flex-end
+      space-between
+      space-around
+  */
+}
+.box {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  flex: 1;
+}
+.red {
+  background: #f00;
+  order: 1;
+}
+.green {
+  background: #0f0;
+  order: 2;
+}
+.blue {
+  background: #00f;
+  order: 0;
+}
